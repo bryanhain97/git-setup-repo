@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alata', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: white;
+}
+@media(max-width: 375px){
+.container {
+    width: 375px;
+}
+#header {
+    background-image: url("./gitRepo/loops-studio-page/images/mobile/image-hero.jpg");
+    background-size: cover;
+    height: 80vh;
+}
+.head-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 0px;
+    margin: px 9.375px;
+}
+.head-logo {
+    margin-left: 16px;
+}
+.head-menu {
+    margin-right: 16px;
+    display:block;
+}
+.head-menu span {
+    display: block;
+    background-color: white;
+    width: 30px;
+    margin: 4px;
+    height: 4px;
+    border-radius: 3px;
+}
+.head-intro {
+    margin-top: 80px;
+    margin-bottom: 112px;
+}
+.intro-box {
+    margin: 0px 9.375px;
+    padding: 32px 32px;
+    border: 2px solid white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.intro-box p {
+    font-weight: 900;
+    margin: 0px;
+}
+
+#sections {
+    width: 100%;
+}
+section {
+    color: black;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section1 img {
+    margin-top: 25px;
+    width: 95%;
+    margin-bottom: 70px;
+}
+
+.s1-text-section {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.s1-text-section p {
+    font-size: 2em;
+    font-weight: 700;
+}
+.s1-text-section p:nth-child(2){
+    font-size: 1em;
+    padding: 0px 16px;
+    font-weight: 600;
+    line-height: 25.6px;
+}
+.section2 {
+    width: 100%;
+    margin-top: 15px;
+}
+.section2 > p {
+    font-size: 2em;
+    font-weight: 700;
+    color: hsl(0,0%,41%);
+    font-family: "Josefin Sans", sans-serif
+}
+#creations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 9.375px;
+}
+
+#creations div img {
+    width: 100%;
+}
+.showNone {
+    opacity: 0;
+    transition: 0.5s;
+}
+}
